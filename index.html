@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'><![endif]-->
+<!--[if IE 7]><html class="no-js ie lt-ie9 lt-ie8" lang="en" xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'><![endif]-->
+<!--[if gte IE 9]><html class="no-js ie gte-ie9" lang="en" xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'><![endif]-->
+<!--[if !IE]><!--><html class="no-js" lang="en" xml:lang='en' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Normalize.css: Make browsers render all elements more consistently.</title>
+        <title>Normalize.scss: Make browsers render all elements more consistently.</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <a class="fork" href="https://github.com/necolas/normalize.css">
+        <a class="fork" href="https://github.com/bitfyre/normalize.scss">
             <img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork this project on GitHub">
         </a>
 
         <div id="container">
 
             <div class="hgroup">
-                <h1><a href="https://github.com/necolas/normalize.css">normalize.css</a></h1>
-                <h2>A modern, HTML5-ready alternative to CSS resets</h2>
+                <h1><a href="https://github.com/bitfyre/normalize.scss">normalize.scss</a></h1>
+                <h2>A modern, HTML5-ready alternative to CSS resets, and Sass ready</h2>
             </div>
 
-            <p>Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards. We researched the differences between default browser styles in order to precisely target only the styles that need normalizing.</p>
+            <p>Normalize.scss is a customizable SCSS file that makes browsers render all elements more consistently and in line with modern standards. We researched the differences between default browser styles in order to precisely target only the styles that need normalizing. This is a version suitable for use inclusion with other Sass files. It also removes the <code>_</code> and <code>*</code> based css hacks in favor of ones based on class names applied to the <code>&lt;html&gt;</code> via conditional comments</p>
 
             <h2>What does it do?</h2>
             <ul>
@@ -31,9 +35,9 @@
             </ul>
 
             <div class="cta">
-                <a class="button button-main" href="https://github.com/necolas/normalize.css">View project on GitHub</a>
-                <a class="button" href="https://github.com/necolas/normalize.css/raw/master/normalize.css">Download</a>
-                <p><a href="demo.html">Check out the demo</a></p>
+                <a class="button button-main" href="https://github.com/bitfyre/normalize.scss">View project on GitHub</a>
+                <a class="button" href="https://github.com/bitfyre/normalize.scss/raw/master/normalize.scss">Download</a>
+                <!-- <p><a href="demo.html">Check out the demo</a></p> -->
             </div>
 
             <div class="share-bar">
@@ -41,9 +45,9 @@
                     <a class="twitter-share-button"
                        href="http://twitter.com/share"
                        data-count="vertical"
-                       data-text="Normalize.css: a modern HTML5-ready alternative to CSS resets"
-                       data-via="necolas"
-                       data-related="jon_neal">Tweet</a>
+                       data-text="Normalize.scss: A Sass verosion of a modern HTML5-ready alternative to CSS resets"
+                       data-via="bitfyre"
+                       data-related="bitfyre">Tweet</a>
                 </div>
 
                 <div class="share-opt">
@@ -56,7 +60,7 @@
             </div>
 
             <h2>How do I use it?</h2>
-            <p>Normalize.css is intended to be used as an alternative to CSS resets. It's suggested that you read the <code>normalize.css</code> file and consider customising it to meet your needs. Alternatively, include the file in your project and override the defaults later in your CSS.</p>
+            <p>Normalize.scss is intended to be used as an alternative to CSS resets. It's suggested that you read the <code>normalize.scss</code> file and consider customizing it to meet your needs. Alternatively, include the file in your project and override the defaults later in your Sass.</p>
 
             <h2>Who uses it?</h2>
             <ul>
@@ -71,11 +75,12 @@
             <p>Chrome, Firefox 3+, Safari 4+, Opera 10+, Internet Explorer 6+</p>
 
             <h2>Source code</h2>
-            <p>Available on GitHub: <a href="https://github.com/necolas/normalize.css">necolas/normalize.css</a></p>
-            <pre>$ git clone git://github.com/necolas/normalize.css.git</pre>
+            <p>Available on GitHub: <a href="https://github.com/bitfyre/normalize.css">bitfyre/normalize.scss</a></p>
+            <pre>$ git clone git://github.com/bitfyre/normalize.scss.git</pre>
 
             <h2>Acknowledgements</h2>
             <p>Normalize.css is a project by <a href="http://nicolasgallagher.com">Nicolas Gallagher</a> (<a href="http://twitter.com/necolas">@necolas</a>) and <a href="http://music.thewikies.com/jonneal/">Jonathan Neal</a> (<a href="http://twitter.com/jon_neal">@jon_neal</a>).</p>
+            <p>This Sass fork, normalize.scss, is a Sass based version maintained by <a href="http://www.bitfyre.net" title="Alex Lemanski">Alex Lemanski</a> (<a href="https://twitter.com/bitfyre" title="Alex Lemanski on Twitter">@bitfyre</a>).</p>
             <p>Detailed information on default UA styles: <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/rendering.html#the-css-user-agent-style-sheet-and-presentational-hints">WHATWG suggestions for rendering HTML documents</a>, <a href="http://iecss.com">Internet Explorer User Agent Style Sheets</a> and <a href="http://css-class.com/test/css/defaults/UA-style-sheet-defaults.htm">CSS2.1 User Agent Style Sheet Defaults</a></p>
 
         </div>
