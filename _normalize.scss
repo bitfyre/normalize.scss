@@ -26,10 +26,12 @@ audio, canvas, video {
 
 /*
  * Prevents modern browsers from displaying 'audio' without controls
+ * Remove excess height in iOS5 device
  */
 
 audio:not([controls]), [hidden] {
-  display: none; 
+  display: none;
+  height: 0;
 }
 
 /*
@@ -344,7 +346,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 
