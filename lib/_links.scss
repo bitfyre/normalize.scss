@@ -1,21 +1,20 @@
-/* =============================================================================
+/* ==========================================================================
    Links
    ========================================================================== */
 
 /*
- * Addresses outline displayed oddly in Chrome
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ *
+ * Improves readability when focused and also mouse hovered in all browsers.
+ * people.opera.com/patrickl/experiments/keyboard/test
  */
 
 a {
   &:focus {
     outline: thin dotted;
   }
-  &:hover, &:active {
+  &:active, &:hover {
     outline: 0;
   }
 }
 
-/*
- * Improves readability when focused and also mouse hovered in all browsers
- * people.opera.com/patrickl/experiments/keyboard/test
- */

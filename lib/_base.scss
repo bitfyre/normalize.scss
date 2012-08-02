@@ -1,12 +1,12 @@
-/* =============================================================================
+/* ==========================================================================
    Base
    ========================================================================== */
 
 /*
- * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
- *    http://clagnut.com/blog/348/#c790
- * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
- *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ * 1. Corrects text resizing oddly in IE6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
  */
 
 html {
@@ -17,7 +17,8 @@ html {
 }
 
 /*
- * Addresses font-family inconsistency between 'textarea' and other form elements.
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
  */
 
 button, input, select, textarea {
@@ -25,7 +26,7 @@ button, input, select, textarea {
 }
 
 /*
- * Addresses margins handled incorrectly in IE6/7
+ * Addresses margins handled incorrectly in IE6/7.
  */
 
 body {

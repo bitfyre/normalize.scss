@@ -1,10 +1,10 @@
-/* =============================================================================
+/* ==========================================================================
    Typography
    ========================================================================== */
 
 /*
- * Addresses font sizes and margins set differently in IE6/7
- * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ * Addresses font sizes and margins set differently in IE6/7.
+ * Addresses font sizes within `section` and `article` in FF4+, Chrome, S5.
  */
 
 h1 {
@@ -33,7 +33,7 @@ h6 {
 }
 
 /*
- * Addresses styling not present in IE7/8/9, S5, Chrome
+ * Addresses styling not present in IE7/8/9, S5, Chrome.
  */
 
 abbr[title] {
@@ -41,7 +41,7 @@ abbr[title] {
 }
 
 /*
- * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+ * Addresses style set to `bolder` in FF3+, S4/5, Chrome.
 */
 
 b, strong {
@@ -53,7 +53,7 @@ blockquote {
 }
 
 /*
- * Addresses styling not present in S5, Chrome
+ * Addresses styling not present in S5, Chrome.
  */
 
 dfn {
@@ -61,7 +61,7 @@ dfn {
 }
 
 /*
- * Addresses styling not present in IE6/7/8/9
+ * Addresses styling not present in IE6/7/8/9.
  */
 
 mark {
@@ -70,7 +70,7 @@ mark {
 }
 
 /*
- * Addresses margins set differently in IE6/7
+ * Addresses margins set differently in IE6/7.
  */
 
 p {
@@ -87,11 +87,11 @@ pre {
 }
 
 /*
- * Corrects font family set oddly in IE6, S4/5, Chrome
+ * Corrects font family set oddly in IE6, S4/5, Chrome.
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
 
-code, kbd, samp {
+code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em;
   .ie-lt7 & {
@@ -100,7 +100,7 @@ code, kbd, samp {
 }
 
 /*
- * Improves readability of pre-formatted text in all browsers
+ * Improves readability of pre-formatted text in all browsers.
  */
 
 pre {
@@ -110,16 +110,16 @@ pre {
 }
 
 /*
- * 1. Addresses CSS quotes not supported in IE6/7
- * 2. Addresses quote property not supported in S4
+ * Addresses CSS quotes not supported in IE6/7.
  */
 
 q {
 
-  /* 1 */
   quotes: none;
 
-  /* 2 */
+  /*
+   * Addresses `quotes` property not supported in S4.
+   */
   &:before, &:after {
     content: '';
     content: none; 
@@ -132,7 +132,7 @@ small {
 }
 
 /*
- * Prevents sub and sup affecting line-height in all browsers
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  * gist.github.com/413930
  */
 
